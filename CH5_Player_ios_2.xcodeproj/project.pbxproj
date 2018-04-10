@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20EA8D9D207D681D00072FFE /* readData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EA8D97207D681C00072FFE /* readData.swift */; };
+		20EA8D9E207D681D00072FFE /* Draw2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EA8D98207D681D00072FFE /* Draw2D.swift */; };
+		20EA8D9F207D681D00072FFE /* sample.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 20EA8D99207D681D00072FFE /* sample.m4a */; };
+		20EA8DA0207D681D00072FFE /* principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EA8D9A207D681D00072FFE /* principal.swift */; };
+		20EA8DA1207D681D00072FFE /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EA8D9B207D681D00072FFE /* Utility.swift */; };
+		20EA8DA2207D681D00072FFE /* shorts.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 20EA8D9C207D681D00072FFE /* shorts.mp3 */; };
 		20FAF4D41DA06C0B00D82CB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FAF4D31DA06C0B00D82CB7 /* AppDelegate.swift */; };
 		20FAF4D61DA06C0B00D82CB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FAF4D51DA06C0B00D82CB7 /* ViewController.swift */; };
 		20FAF4D91DA06C0B00D82CB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FAF4D71DA06C0B00D82CB7 /* Main.storyboard */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20EA8D97207D681C00072FFE /* readData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = readData.swift; sourceTree = "<group>"; };
+		20EA8D98207D681D00072FFE /* Draw2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Draw2D.swift; sourceTree = "<group>"; };
+		20EA8D99207D681D00072FFE /* sample.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.m4a; sourceTree = "<group>"; };
+		20EA8D9A207D681D00072FFE /* principal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = principal.swift; sourceTree = "<group>"; };
+		20EA8D9B207D681D00072FFE /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		20EA8D9C207D681D00072FFE /* shorts.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shorts.mp3; sourceTree = "<group>"; };
 		20FAF4D01DA06C0B00D82CB7 /* CH5_Player_ios_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CH5_Player_ios_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FAF4D31DA06C0B00D82CB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20FAF4D51DA06C0B00D82CB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +109,12 @@
 		20FAF4D21DA06C0B00D82CB7 /* CH5_Player_ios_2 */ = {
 			isa = PBXGroup;
 			children = (
+				20EA8D98207D681D00072FFE /* Draw2D.swift */,
+				20EA8D9A207D681D00072FFE /* principal.swift */,
+				20EA8D97207D681C00072FFE /* readData.swift */,
+				20EA8D99207D681D00072FFE /* sample.m4a */,
+				20EA8D9C207D681D00072FFE /* shorts.mp3 */,
+				20EA8D9B207D681D00072FFE /* Utility.swift */,
 				20FAF4D31DA06C0B00D82CB7 /* AppDelegate.swift */,
 				20FAF4D51DA06C0B00D82CB7 /* ViewController.swift */,
 				20FAF4D71DA06C0B00D82CB7 /* Main.storyboard */,
@@ -235,6 +253,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20EA8DA2207D681D00072FFE /* shorts.mp3 in Resources */,
+				20EA8D9F207D681D00072FFE /* sample.m4a in Resources */,
 				20FAF4DE1DA06C0B00D82CB7 /* LaunchScreen.storyboard in Resources */,
 				20FAF4DB1DA06C0B00D82CB7 /* Assets.xcassets in Resources */,
 				20FAF4D91DA06C0B00D82CB7 /* Main.storyboard in Resources */,
@@ -264,6 +284,10 @@
 			files = (
 				20FAF4D61DA06C0B00D82CB7 /* ViewController.swift in Sources */,
 				20FAF4D41DA06C0B00D82CB7 /* AppDelegate.swift in Sources */,
+				20EA8DA1207D681D00072FFE /* Utility.swift in Sources */,
+				20EA8D9D207D681D00072FFE /* readData.swift in Sources */,
+				20EA8DA0207D681D00072FFE /* principal.swift in Sources */,
+				20EA8D9E207D681D00072FFE /* Draw2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +538,7 @@
 				20FAF4FA1DA06C0C00D82CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20FAF4FB1DA06C0C00D82CB7 /* Build configuration list for PBXNativeTarget "CH5_Player_ios_2Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +547,7 @@
 				20FAF4FD1DA06C0C00D82CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20FAF4FE1DA06C0C00D82CB7 /* Build configuration list for PBXNativeTarget "CH5_Player_ios_2UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +556,7 @@
 				20FAF5001DA06C0C00D82CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
