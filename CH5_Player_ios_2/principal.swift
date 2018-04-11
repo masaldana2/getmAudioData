@@ -381,7 +381,7 @@ class Principio  {
             if (numBuffers > 0)
             {
                 let numChans = ioData.pointee.mBuffers.mNumberChannels
-                let size = ioData.pointee.mBuffers.mDataByteSize
+                let size = ioData.pointee.mBuffers.mDataByteSize / 4 //Size of a float is 4
                 let data : [Float] = Array(UnsafeMutableBufferPointer(start: ioData.pointee.mBuffers.mData!.assumingMemoryBound(to: Float.self), count: Int(size)))
                 
                 print("num chans:", numChans)
